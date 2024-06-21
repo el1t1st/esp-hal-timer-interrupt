@@ -326,9 +326,11 @@ dependencies = [
 name = "esp-hal-timer-interrupt"
 version = "0.1.0"
 dependencies = [
+ "critical-section",
  "esp-backtrace",
  "esp-hal",
  "esp-println",
+ "fugit",
  "log",
 ]
 
